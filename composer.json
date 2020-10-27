@@ -14,6 +14,7 @@
         "magento-hackathon/magento-composer-installer": "*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "phpunit/phpunit": "4.1.*@dev",
         "firegento/mage-ci": "master-dev"
     },
@@ -23,7 +24,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.firegento.com"
+            "url": "https://packages.firegento.com"
         }
     ],
     "extra":{
